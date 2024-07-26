@@ -16,6 +16,14 @@ ScrollReveal().reveal('.revealBoxs', {
     interval: 300
 });
 
+ScrollReveal().reveal('.revealLinea', {
+    origin: 'left',
+    distance: '10px',
+    duration: 400,
+    easing: 'cubic-bezier(0.5,0,0,1)',
+    interval: 200
+});
+
 function redirigir_lineas() {
     window.location.href = "pages/lineas.html";
 }
